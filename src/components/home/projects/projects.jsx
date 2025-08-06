@@ -75,12 +75,12 @@ export default function Projects() {
       github: "https://github.com/Shaikhshams17/fire-detection-system"
     },
     {
-      title: "My Portfolio",
-      description: "I built my personal portfolio using Next.js 15 with the App Router, ensuring a modern, high-performance web experience.",
-      image: "/project3.png",
-      tech: ["Next.js", "React-icons", "Framer-Motion","Three.js","Gsap"],
-      icon: <Laptop className="w-6 h-6" />,
-      github: "https://github.com/Shaikhshams17/portfolio"
+      title: "CodeEditor Platform",
+      description: "Built a real-time collaborative code editor using Next.js and Firebase, featuring live editing, authentication, and cloud storage.",
+      image: "/codeeditor.jpg",
+      tech: ["Next.js", "Firebase", "React-icons", "Monaco Editor", "Tailwind CSS"],
+      icon: <Code className="w-6 h-6" />,
+      github: "https://github.com/Shaikhshams17/codeeditor"
     }
   ];
 
@@ -120,10 +120,10 @@ export default function Projects() {
   };
 
   return (
-    <div 
+    <div
       className="min-h-screen py-20 px-4 relative"
-      style={{ 
-        background: `linear-gradient(135deg, #1c2638 0%, #0f1419 50%, #1c2638 100%)` 
+      style={{
+        background: `linear-gradient(135deg, #1c2638 0%, #0f1419 50%, #1c2638 100%)`
       }}
     >
       {/* Subtle background pattern */}
@@ -142,7 +142,7 @@ export default function Projects() {
           </h2>
           <div className="w-24 h-1 bg-blue-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto leading-relaxed">
-            A comprehensive showcase of technical expertise across full-stack development, 
+            A comprehensive showcase of technical expertise across full-stack development,
             game development, and AI-powered solutions.
           </p>
         </div>
@@ -157,15 +157,15 @@ export default function Projects() {
               onMouseLeave={() => setHoveredProject(null)}
             >
               {/* Card Container */}
-              <div 
+              <div
                 className="relative h-full rounded-2xl overflow-hidden border transition-all duration-500 hover:-translate-y-1 hover:shadow-xl"
-                style={{ 
+                style={{
                   backgroundColor: hoveredProject === index ? 'rgba(255,255,255,0.05)' : 'rgba(255,255,255,0.02)',
                   borderColor: hoveredProject === index ? 'rgba(59, 130, 246, 0.3)' : 'rgba(255,255,255,0.1)',
                   boxShadow: hoveredProject === index ? '0 25px 50px -12px rgba(0, 0, 0, 0.5)' : '0 10px 15px -3px rgba(0, 0, 0, 0.3)'
                 }}
               >
-                
+
                 {/* Image Section */}
                 <div className="relative h-48 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10"></div>
@@ -174,9 +174,9 @@ export default function Projects() {
                     alt={project.title}
                     className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                   />
-                  
+
                   {/* Professional Icon */}
-                  <div 
+                  <div
                     className="absolute top-4 left-4 z-20 p-3 rounded-xl shadow-lg transition-all duration-300 group-hover:scale-110"
                     style={{ backgroundColor: '#3b82f6' }}
                   >
@@ -191,7 +191,7 @@ export default function Projects() {
                   <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-blue-300 transition-colors duration-300">
                     {project.title}
                   </h3>
-                  
+
                   <p className="text-gray-400 mb-5 text-sm leading-relaxed line-clamp-3">
                     {project.description}
                   </p>
@@ -202,7 +202,7 @@ export default function Projects() {
                       <span
                         key={i}
                         className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full border transition-all duration-300 hover:scale-105"
-                        style={{ 
+                        style={{
                           backgroundColor: 'rgba(255,255,255,0.05)',
                           borderColor: 'rgba(255,255,255,0.1)',
                           color: '#e2e8f0'
@@ -219,17 +219,17 @@ export default function Projects() {
                     onClick={() => handleGithubClick(project.github)}
                     disabled={isLoading}
                     className="group/btn relative w-full py-3 px-4 rounded-xl font-medium text-white transition-all duration-300 hover:shadow-lg active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed overflow-hidden"
-                    style={{ 
+                    style={{
                       backgroundColor: '#3b82f6',
                       boxShadow: hoveredProject === index ? '0 10px 25px rgba(59, 130, 246, 0.3)' : 'none'
                     }}
                   >
                     {/* Button hover effect */}
-                    <div 
+                    <div
                       className="absolute inset-0 transition-opacity duration-300 opacity-0 group-hover/btn:opacity-100"
                       style={{ backgroundColor: 'rgba(255,255,255,0.1)' }}
                     ></div>
-                    
+
                     <span className="relative flex items-center justify-center gap-2.5">
                       {isLoading ? (
                         <>
@@ -253,15 +253,25 @@ export default function Projects() {
 
         {/* Professional Footer */}
         <div className="text-center mt-16">
-          <div 
+          <div
             className="inline-flex items-center gap-3 px-6 py-3 rounded-full border text-gray-300 text-sm"
-            style={{ 
+            style={{
               backgroundColor: 'rgba(255,255,255,0.02)',
               borderColor: 'rgba(255,255,255,0.1)'
             }}
           >
             <Github className="w-4 h-4" />
-            <span>Explore more projects on GitHub</span>
+            <span>
+              Explore more projects on{' '}
+              <a
+                href="https://github.com/Shaikhshams17"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-blue-600"
+              >
+                GitHub
+              </a>
+            </span>
           </div>
         </div>
       </div>
