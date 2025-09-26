@@ -197,7 +197,7 @@ const Hero = () => {
               
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full border-2 border-indigo-500/30 overflow-hidden shadow-2xl shadow-indigo-500/20 backdrop-blur-sm bg-indigo-900/20">
                 <Image
-                  src="/shamsali.jpg" 
+                  src="/shamsali.jpeg" 
                   alt="Shams Ali Shaikh"
                   layout="fill"
                   objectFit="cover"

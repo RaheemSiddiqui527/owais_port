@@ -7,7 +7,7 @@ const educationData = [
   {
     id: 1,
     institution: "Gharda Institute of Technology",
-    degree: "B.Tech in Computer Science",
+    degree: "Electronic And Telecommunication Engineering",
     year: "2020 - 2024",
     description: "8.9 CGPI",
     Icon: GraduationCap,
