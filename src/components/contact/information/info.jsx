@@ -23,7 +23,7 @@ const ContactCard = () => {
     {
       id: "whatsapp",
       icon: FaWhatsapp,
-      url: "https://wa.me/917385841171",
+      url: "https://wa.me/919819607785",
       color: "text-green-400",
       hoverBg: "bg-green-500",
       label: "WhatsApp",
@@ -31,33 +31,18 @@ const ContactCard = () => {
     {
       id: "linkedin",
       icon: FaLinkedin,
-      url: "https://www.linkedin.com/in/shams-ali-shaikh-27194425a",
+      url: "https://www.linkedin.com/in/owais-chipa-7b5177263",
       color: "text-blue-400",
       hoverBg: "bg-blue-500",
       label: "LinkedIn",
     },
-    {
-      id: "github",
-      icon: FaGithub,
-      url: "https://github.com/Shaikhshams17",
-      color: "text-purple-400",
-      hoverBg: "bg-purple-500",
-      label: "GitHub",
-    },
-    {
-      id: "instagram",
-      icon: FaInstagram,
-      url: "https://www.instagram.com/shamsss_17",
-      color: "text-pink-400",
-      hoverBg: "bg-pink-500",
-      label: "Instagram",
-    },
+    
   ];
 
   const contactInfo = [
     {
       icon: FaEnvelope,
-      content: "shaikhshams59@gmail.com",
+      content: "owaischipa2684@gmail.com",
       isLink: true,
       url: "mailto:shaikhshams59@gmail.com",
       color: "text-indigo-300",
@@ -65,14 +50,14 @@ const ContactCard = () => {
     },
     {
       icon: FaPhone,
-      content: "+91 7385841171",
+      content: "+91 9819607785",
       isLink: false,
       color: "text-blue-300",
       label: "Phone",
     },
     {
       icon: FaMapMarkerAlt,
-      content: "Lower Parel, Mumbai",
+      content: " Mumbai, Maharashtra",
       isLink: false,
       color: "text-purple-300",
       label: "Address",
@@ -192,7 +177,7 @@ const ContactCard = () => {
 
               <div className="mt-6 border-t border-indigo-500/20 pt-4">
                 <p className="text-indigo-200/60 text-xs sm:text-sm">
-                  © {new Date().getFullYear()} | Shams Ali Shaikh
+                  © {new Date().getFullYear()} | Owais Chip
                 </p>
               </div>
             </div>

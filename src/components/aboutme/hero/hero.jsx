@@ -34,9 +34,14 @@ const Hero = () => {
   };
 
   const socialLinks = [
-    { icon: FaLinkedin, url: "https://www.linkedin.com/in/shams-ali-shaikh-27194425a", color: "bg-blue-600" },
-    { icon: FaGithub, url: "https://github.com/Shaikhshams17", color: "bg-gray-800" },
-    { icon: FaInstagram, url: "https://www.instagram.com/shamsss_17", color: "bg-pink-600" },
+   { 
+  icon: FaLinkedin, 
+  url: "https://www.linkedin.com/in/owais-chipa-7b5177263", 
+  color: "bg-blue-600" 
+}
+
+  //   { icon: FaGithub, url: "https://github.com/Shaikhshams17", color: "bg-gray-800" },
+  //   { icon: FaInstagram, url: "https://www.instagram.com/shamsss_17", color: "bg-pink-600" },
   ];
 
   // Variants for staggered animations
@@ -95,10 +100,10 @@ const Hero = () => {
           animate="visible"
         >
           <motion.div 
-            className="inline-block mb-3 px-4 py-1.5 rounded-full bg-indigo-900/50 border border-indigo-500/20 backdrop-blur-sm"
+            className="inline-block mb-3 px-4 py-1.5 rounded-full bg-indigo-900/50 border border-indigo-500/20 backdrop-blur-sm mt-10"
             variants={itemVariants}
           >
-            <span className="text-indigo-300 text-sm font-medium">Mern Stack Developer || DevOps Engineer</span>
+            <span className="text-indigo-300 text-sm font-medium">UI/UX Designer|Marketing Executive |Web Developer | Seo Strategist </span>
           </motion.div>
           
           <motion.h1 
@@ -107,7 +112,7 @@ const Hero = () => {
           >
             Hello, I'm{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
-              Shams Ali Shaikh
+              Owais Chipa 
             </span>
           </motion.h1>
           
@@ -115,7 +120,16 @@ const Hero = () => {
             className="text-lg text-gray-300/90 leading-relaxed mb-8 max-w-xl"
             variants={itemVariants}
           >
-            I specialize in modern web development as a MERN stack developer and DevOps engineer, building responsive websites and scalable web applications with clean architecture, efficient workflows, and cutting-edge technologies.
+            I am Owais Mohammed Iqbal Chipa, a certified Digital Marketer with 1.5
+years of professional experience at Iqra Technology as a Digital Marketing
+Executive. I have also completed an internship with Nexcorre Alliance,
+where I gained hands-on expertise in SEO, SMO, SMM, Google Ads, and
+Social Media Management.
+My proficiency spans across WordPress, Wix Studio, and AI-powered tools,
+along with strong skills in graphic design (Figma, CorelDRAW, Photoshop,
+Canva) and video editing (DaVinci Resolve, Premiere Pro, CapCut,
+Clipchamp). I specialize in combining creativity with data-driven strategies
+to deliver impactful digital campaigns.
           </motion.p>
           
           <motion.div 
@@ -196,15 +210,15 @@ const Hero = () => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 p-1 -m-1 blur-sm animate-spin-slow"></div>
               
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full border-2 border-indigo-500/30 overflow-hidden shadow-2xl shadow-indigo-500/20 backdrop-blur-sm bg-indigo-900/20">
-                <Image
+                {/* <Image
                   src="/shamsali.jpeg" 
-                  alt="Shams Ali Shaikh"
+                  alt="Owais ChipAli Shaikh"
                   layout="fill"
                   objectFit="cover"
                   quality={100}
                   priority
                   className="z-0"
-                />
+                /> */}
                 
                 {/* Glass reflection effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-60 z-10"></div>
@@ -251,12 +265,12 @@ const Hero = () => {
       </div>
       
       {/* Code-inspired decorations */}
-      <div className="absolute bottom-8 left-8 text-indigo-500/30 font-mono text-xs hidden md:block">
+      {/* <div className="absolute bottom-8 left-8 text-indigo-500/30 font-mono text-xs hidden md:block">
         &lt;hero&gt;
       </div>
       <div className="absolute bottom-4 left-8 text-indigo-500/30 font-mono text-xs hidden md:block">
         &lt;/hero&gt;
-      </div>
+      </div> */}
     </section>
   );
 };

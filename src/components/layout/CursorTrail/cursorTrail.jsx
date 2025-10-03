@@ -6,7 +6,7 @@ import { motion, useMotionValue, useSpring, AnimatePresence } from 'framer-motio
 export default function CursorTrail() {
   const [isMounted, setIsMounted] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const [text, setText] = useState('Shams Ali');
+  const [text, setText] = useState('Owais ChipAli');
   const [cursorState, setCursorState] = useState('default');
   const [isHovering, setIsHovering] = useState(false);
 
@@ -46,7 +46,7 @@ export default function CursorTrail() {
       setCursorState('hover');
       setIsHovering(true);
     } else {
-      setText('Shams Ali');
+      setText('Owais ChipAli');
       setCursorState('default');
       setIsHovering(false);
     }

@@ -158,7 +158,7 @@ export default function SimplifiedHeroSection() {
   }, []);
 
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/7385841171", "_blank");
+    window.open("https://wa.me/+919819607785", "_blank");
   };
 
   return (
@@ -195,7 +195,7 @@ export default function SimplifiedHeroSection() {
               />
               <div className="relative">
                 <TypewriterText
-                  text="Shams Ali"
+                  text="Owais Chipa"
                   className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight tracking-tight"
                   delay={1.2}
                 />
@@ -208,15 +208,11 @@ export default function SimplifiedHeroSection() {
               </div>
               <div className="flex flex-col space-y-3 pt-4">
                 <TypewriterText
-                  text="Full Stack Developer"
+                  text="UI/UX Designer | Marketing Executive |Web Developer"
                   className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#251d5c] tracking-wide"
                   delay={1.8}
                 />
-                <TypewriterText
-                  text="& DevOps Engineer"
-                  className="text-xl sm:text-2xl lg:text-3xl font-semibold text-white/90 tracking-wide"
-                  delay={2.2}
-                />
+                
               </div>
             </div>
 

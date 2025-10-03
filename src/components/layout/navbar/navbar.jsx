@@ -31,7 +31,7 @@ export default function Navbar() {
           className="text-[#251d5c] text-2xl font-bold cursor-pointer"
           whileHover={{ scale: 1.1 }}
         >
-          <Link href="/">Shams Ali</Link>
+          <Link href="/">Owais I Chipa</Link>
         </motion.div>
 
         {/* Desktop Navigation */}
