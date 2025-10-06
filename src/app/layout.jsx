@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Owais chip",
-    template: "%s | Owais chip",
+    default: "Owais chipa",
+    template: "%o | Owais chipa",
   },
   description:
     "Owais chip is a passionate web developer and designer dedicated to crafting beautiful, functional, and user-friendly digital experiences. With a keen eye for detail and a commitment to excellence, Owais chip transforms ideas into reality through innovative web solutions.",

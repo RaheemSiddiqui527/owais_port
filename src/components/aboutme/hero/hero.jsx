@@ -109,7 +109,7 @@ const Hero = () => {
             className="inline-block mb-3 px-4 py-1.5 rounded-full bg-indigo-900/50 border border-indigo-500/20 backdrop-blur-sm mt-10"
             variants={itemVariants}
           >
-            <span className="text-indigo-300 text-sm font-medium">UI/UX Designer|Marketing Executive |Web Developer | Seo Strategist </span>
+            <span className="text-indigo-300 text-sm font-medium">UI/UX Designer|Marketing Executive |Web Developer | SEO Strategist </span>
           </motion.div>
           
           <motion.h1 
@@ -222,7 +222,7 @@ to deliver impactful digital campaigns.
       src="/owais.jpeg"
       alt="Owais Chipa"
       fill
-      className="object-cover object-top translate-y-1" // keeps circle and lowers image slightly
+      className="object-cover object-top -translate-y-1" // keeps circle and lowers image slightly
       quality={100}
       priority
     />

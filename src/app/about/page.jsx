@@ -5,8 +5,8 @@ import PerformanceLayout from "@/components/layout/PerformanceLayout";
 import CursorTrail from "@/components/layout/CursorTrail/cursorTrail";
 import Navbar from "@/components/layout/navbar/navbar";
 import Hero from "@/components/aboutme/hero/hero";
-// import Education from "@/components/aboutme/education/education";
-// import Experience from "@/components/aboutme/experience/experience";
+import Education from "@/components/aboutme/education/education";
+import Experience from "@/components/aboutme/experience/experience";
 import Hobbies from "@/components/aboutme/hobbies/hobbies";
 
 export default function About() {
@@ -23,12 +23,12 @@ export default function About() {
 
         {/* Education Section */}
         <section data-cursor-text="My Education">
-          
+          <Education />
         </section>
 
         {/* Experience Section */}
         <section data-cursor-text="My Journey">
-        
+          <Experience />
         </section>
 
         {/* Optional Hobbies Section - uncomment if needed */}

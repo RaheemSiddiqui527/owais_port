@@ -206,18 +206,19 @@ export default function SimplifiedHeroSection() {
                   transition={{ duration: 1.2, delay: 2.2 }}
                 />
               </div>
-              <div className="flex flex-col space-y-3 pt-4">
-                <TypewriterText
-                  text=" UI/UX Designer | Digital Marketing Specialist |"
-                  className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#251d5c] tracking-wide"
-                  delay={1.8}
-                />
-                <TypewriterText
-                  text=" Web Developer"
-                  className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#251d5c] tracking-wide"
-                  delay={1.8}
-                />
-              </div>
+              <div className="flex flex-col items-start justify-center space-y-2 pt-4 text-left">
+  <TypewriterText
+    text="UI/UX Designer |Digital Marketing Specialist |"
+    className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#251d5c] tracking-wide"
+    delay={1.8}
+  />
+  <TypewriterText
+    text="Web Developer"
+    className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#251d5c] tracking-wide"
+    delay={2.2}
+  />
+</div>
+
             </div>
 
             {/* Description */}

@@ -3,45 +3,59 @@ import React from "react";
 import { motion } from "framer-motion";
 import { GraduationCap, School, BookOpen } from "lucide-react";
 
+// ✅ Updated Education Data
 const educationData = [
   {
     id: 1,
-    institution: "Gharda Institute of Technology",
-    degree: "Electronic And Telecommunication Engineering",
-    year: "2020 - 2024",
-    description: "8.9 CGPI",
+    institution: "Siddharth College of Arts, Science and Commerce",
+    degree: "Bachelor of Management Studies (B.M.S.)",
+    year: "2022 - 2025",
+    description: "6.55 CGPI",
     Icon: GraduationCap,
     highlights: [
-    "Skilled in MERN stack development",
-    "Experienced in CI/CD and cloud DevOps",
-    "Led developer team for campus app"
-    ]
+      "Developed strong knowledge of management and business studies",
+      "Worked on presentations and case studies in marketing strategies",
+      "Participated in inter-college competitions and events",
+    ],
   },
   {
     id: 2,
-    institution: "HDA Junior College",
-    degree: "Higher Secondary Certificate",
-    year: "2018 - 2020",
-    description: "72%",
+    institution: "Anjuman-I-Islam, Junior College",
+    degree: "Higher Secondary School Certificate",
+    year: "2020 - 2022",
+    description: "68%",
     Icon: School,
     highlights: [
-      "Computer Science focus",
-      "Mathematics Olympiad participant",
-      "Developed first web projects"
-    ]
+      "Focused on commerce and business-related subjects",
+      "Actively participated in cultural and group activities",
+      "Built early interest in digital marketing concepts",
+    ],
   },
   {
     id: 3,
-    institution: "Iqra English Medium School",
+    institution: "Bharda New High School",
     degree: "Secondary School Certificate",
-    year: "2016 - 2018",
-    description: "75%",
+    year: "2019 - 2020",
+    description: "72%",
     Icon: BookOpen,
     highlights: [
-      "Early programming experiments",
-      "Science fair robotics winner",
-      "Mathematics proficiency awards"
-    ]
+      "Strong academic foundation with consistent performance",
+      "Involved in extracurricular activities and school events",
+      "Prepared groundwork for higher studies in commerce",
+    ],
+  },
+  {
+    id: 4,
+    institution: "Nexcore Alliance",
+    degree: "Digital Marketing Course",
+    year: "2025",
+    description: "Professional digital marketing certification course.",
+    Icon: GraduationCap,
+    highlights: [
+      "Hands-on SEO and SEM training",
+      "Social media campaign execution",
+      "Google Ads and Analytics certified",
+    ],
   },
 ];
 
