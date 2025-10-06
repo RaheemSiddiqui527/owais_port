@@ -16,7 +16,7 @@ export default function Home() {
 
       <main>
         {/* Hero Section - Shows "Shams Ali" when hovered */}
-        <section data-cursor-text="Owais chip">
+        <section data-cursor-text="Owais Chipa">
           <HeroBanner />
         </section>
 

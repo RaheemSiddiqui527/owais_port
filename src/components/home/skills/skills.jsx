@@ -26,6 +26,8 @@ const SKILLS_DATA = [
   { title: "Da Vinci", img: "/davinci.jpeg" },
   { title: "Ubersuggest", img: "/10.jpg" },
   { title: "Semrush ", img: "/11.jpg" },
+{title :"video shooting", img:"/videoshooting.jpeg" }
+
 ];
 
 // Simplified mobile skill orb component
@@ -428,7 +430,7 @@ function EnhancedMobile({ skills }) {
       {/* Header */}
       <div className="text-center mb-4">
         <h2 className="text-2xl font-bold mb-2 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
-          My Skills
+          Technical skills
         </h2>
         <p className="text-slate-400 text-xs">
           {skills.length} core technologies • Enhanced control
@@ -497,7 +499,7 @@ function CompactDesktop({ skills, deviceSize }) {
       {/* Header */}
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
-          Technical Skills
+          Core Competencies
         </h2>
       </div>
 

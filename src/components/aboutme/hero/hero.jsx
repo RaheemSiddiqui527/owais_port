@@ -215,20 +215,26 @@ to deliver impactful digital campaigns.
               {/* Rotating border effect */}
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 p-1 -m-1 blur-sm animate-spin-slow"></div>
               
-              <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full border-2 border-indigo-500/30 overflow-hidden shadow-2xl shadow-indigo-500/20 backdrop-blur-sm bg-indigo-900/20">
-                <Image
-                  src="/owais.jpeg" 
-                  alt="Owais ChipAli Shaikh"
-                  layout="fill"
-                  objectFit="cover"
-                  quality={100}
-                  priority
-                  className="z-0"
-                />
-                
-                {/* Glass reflection effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-60 z-10"></div>
-              </div>
+             <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden bg-gradient-to-b from-indigo-700/30 to-indigo-900/40 shadow-[0_0_40px_rgba(99,102,241,0.6)] flex items-center justify-center mx-auto">
+  {/* Profile image */}
+  <div className="relative w-full h-full">
+    <Image
+      src="/owais.jpeg"
+      alt="Owais Chipa"
+      fill
+      className="object-cover object-top translate-y-1" // keeps circle and lowers image slightly
+      quality={100}
+      priority
+    />
+  </div>
+
+  {/* Neon glow border */}
+  <div className="absolute inset-0 rounded-full border-[3px] border-indigo-400/60 shadow-[0_0_25px_rgba(99,102,241,0.6)] pointer-events-none"></div>
+
+  {/* Soft light reflection */}
+  <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-30 mix-blend-overlay pointer-events-none"></div>
+</div>
+
             </div>
             
             {/* Small decorative circles */}

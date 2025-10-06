@@ -208,11 +208,15 @@ export default function SimplifiedHeroSection() {
               </div>
               <div className="flex flex-col space-y-3 pt-4">
                 <TypewriterText
-                  text="UI/UX Designer | Marketing Executive |Web Developer"
+                  text=" UI/UX Designer | Digital Marketing Specialist |"
                   className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#251d5c] tracking-wide"
                   delay={1.8}
                 />
-                
+                <TypewriterText
+                  text=" Web Developer"
+                  className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#251d5c] tracking-wide"
+                  delay={1.8}
+                />
               </div>
             </div>
 
@@ -223,8 +227,7 @@ export default function SimplifiedHeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 2.8 }}
             >
-              Crafting exceptional digital experiences with modern technologies.
-              Specializing in React, Node.js, cloud architecture, and seamless DevOps workflows.
+              Certified Digital Marketer skilled in SEO, SMO, SMM, Google Ads, and social media management. Proficient in WordPress, Wix Studio, AI tools, graphic design, video editing, and video shooting. Focused on blending creativity with data-driven strategies to deliver impactful digital campaigns and measurable results
             </motion.p>
 
             {/* CTA Buttons */}
