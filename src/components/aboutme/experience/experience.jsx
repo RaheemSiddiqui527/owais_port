@@ -3,24 +3,34 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // ✅ Updated Experience Data
+// ✅ Updated Experience Data
 const experienceData = [
   {
     id: 1,
-    company: "IQRA Technology",
-    role: "Digital Marketing Executive",
-    year: "16 Jan 2024 - Present (1.5 years)",
+    company: "Nexcore Alliance",
+    role: "Digital Marketing Trainee",
+    year: "May 2025 – Present",
     description:
-      "Managed digital marketing campaigns, optimized SEO strategies, and boosted online presence for clients across diverse industries.",
+      "Enhanced expertise across all digital marketing channels, managing multiple clients simultaneously. Applied professional marketing tools and executed multi-channel campaigns with strong multitasking abilities.",
   },
   {
     id: 2,
-    company: "Nexcore Alliance LLP",
-    role: "Digital Marketing Intern",
-    year: "5 May 2025 - Present (5 months)",
+    company: "Iqra Technology",
+    role: "Digital Marketing Executive",
+    year: "Jul 2024 – Apr 2025",
     description:
-      "Assisted in executing digital marketing strategies, including SEO, SEM, and social media campaigns, while learning industry best practices.",
+      "Advanced knowledge in WordPress by developing a course and training others as a WordPress trainer. Managed company websites, designed digital assets, and executed SEM and ad campaigns.",
+  },
+  {
+    id: 3,
+    company: "Iqra Technology",
+    role: "Digital Marketing Intern",
+    year: "Jan 2024 – Jun 2024",
+    description:
+      "Gained hands-on experience in SEO by implementing optimization strategies. Developed skills in video recording and editing to support digital campaigns.",
   },
 ];
+
 
 
 const Experience = () => {

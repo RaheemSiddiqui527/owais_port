@@ -91,7 +91,7 @@ const Education = () => {
             Code of Learning
           </h2>
           <p className="text-lg text-blue-200 max-w-2xl mx-auto">
-            How academic foundations shaped my technical evolution
+            How academic foundations shaped My Professional  evolution
           </p>
         </motion.div>
 
