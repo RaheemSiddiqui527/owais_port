@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaLinkedin, FaGithub, FaInstagram, FaArrowRight } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram, FaArrowRight, FaFacebook } from 'react-icons/fa';
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -36,9 +36,15 @@ const Hero = () => {
   const socialLinks = [
    { 
   icon: FaLinkedin, 
-  url: "https://www.linkedin.com/in/owais-chipa-7b5177263", 
+  url: "https://www.linkedin.com/in/owais-chipa-7b5177263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app", 
   color: "bg-blue-600" 
+},
+{ 
+  icon: FaFacebook,
+  url: "https://www.facebook.com/share/1TrLpB2cWm/?mibextid=wwXIfr",
+  color: "bg-blue-600"
 }
+
 
   //   { icon: FaGithub, url: "https://github.com/Shaikhshams17", color: "bg-gray-800" },
   //   { icon: FaInstagram, url: "https://www.instagram.com/shamsss_17", color: "bg-pink-600" },
@@ -210,15 +216,15 @@ to deliver impactful digital campaigns.
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 p-1 -m-1 blur-sm animate-spin-slow"></div>
               
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full border-2 border-indigo-500/30 overflow-hidden shadow-2xl shadow-indigo-500/20 backdrop-blur-sm bg-indigo-900/20">
-                {/* <Image
-                  src="/shamsali.jpeg" 
+                <Image
+                  src="/owais.jpeg" 
                   alt="Owais ChipAli Shaikh"
                   layout="fill"
                   objectFit="cover"
                   quality={100}
                   priority
                   className="z-0"
-                /> */}
+                />
                 
                 {/* Glass reflection effect */}
                 <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent opacity-60 z-10"></div>

@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: {
-    default: "Shams Ali - MERN Stack Developer & DevOps Engineer",
-    template: "%s | Shams Ali",
+    default: "Owais chip",
+    template: "%s | Owais chip",
   },
   description:
-    "Professional portfolio of Shams Ali, MERN Stack Developer and DevOps Engineer...",
+    "Owais chip is a passionate web developer and designer dedicated to crafting beautiful, functional, and user-friendly digital experiences. With a keen eye for detail and a commitment to excellence, Owais chip transforms ideas into reality through innovative web solutions.",
   // ... rest of your metadata
 };
 

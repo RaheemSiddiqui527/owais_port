@@ -9,6 +9,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaInstagram,
+  FaFacebook,
 } from "react-icons/fa";
 
 const ContactCard = () => {
@@ -20,24 +21,31 @@ const ContactCard = () => {
   }, []);
 
   const socialLinks = [
-    {
-      id: "whatsapp",
-      icon: FaWhatsapp,
-      url: "https://wa.me/919819607785",
-      color: "text-green-400",
-      hoverBg: "bg-green-500",
-      label: "WhatsApp",
-    },
-    {
-      id: "linkedin",
-      icon: FaLinkedin,
-      url: "https://www.linkedin.com/in/owais-chipa-7b5177263",
-      color: "text-blue-400",
-      hoverBg: "bg-blue-500",
-      label: "LinkedIn",
-    },
-    
-  ];
+  {
+    id: "whatsapp",
+    icon: FaWhatsapp,
+    url: "https://wa.me/919819607785",
+    color: "text-green-400",
+    hoverBg: "bg-green-500",
+    label: "WhatsApp",
+  },
+  {
+    id: "linkedin",
+    icon: FaLinkedin,
+    url: "https://www.linkedin.com/in/owais-chipa-7b5177263",
+    color: "text-blue-400",
+    hoverBg: "bg-blue-500",
+    label: "LinkedIn",
+  },
+  {
+    id: "facebook",
+    icon: FaFacebook,
+    url: "https://www.facebook.com/share/1TrLpB2cWm/?mibextid=wwXIfr",
+    color: "text-blue-600",
+    hoverBg: "bg-blue-700",
+    label: "Facebook",
+  },
+];
 
   const contactInfo = [
     {
